@@ -1,0 +1,75 @@
+body h3{
+    text-align: left;
+}
+body h4{
+    text-align: right;
+}
+
+*{
+    background-color: beige;
+}
+
+
+
+
+
+
+body h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 50px;
+}
+
+/*box 1*/
+
+div.box1 {
+  display: flex;
+  
+    width: 100%;
+  border: 3px solid red;
+    height: "fit-content"
+}
+
+div.box1.1 {
+  position: absolute;
+  width: 50%;
+  
+  border: 3px solid #8AC007;
+} 
+
+/*box 2*/
+
+div.box2 {
+display: flex;
+  height: fit-content;
+    width: 100%;
+  border: 3px solid red;
+    
+}
+
+div.box2.2{
+  position: absolute;
+  width: 50%;
+  bottom: 200px;
+  border: 3px solid #8AC007;
+} 
+
+
+div.image1{
+ width: 500px;
+   
+}
+
+div.date{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+p{
+    width: 50% ;
+    
+}
+.box3{
+    display: flex;
+}
